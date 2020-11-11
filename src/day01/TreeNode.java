@@ -8,6 +8,9 @@ public class TreeNode {
     private int value ;
     private TreeNode leftNode;
     private TreeNode rightNode;
+    public TreeNode(int value) {
+        this.value = value;
+    }
 
     public int getValue() {
         return value;
